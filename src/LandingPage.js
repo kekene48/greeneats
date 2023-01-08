@@ -8,7 +8,7 @@ function LandingPage() {
 	return (
 		<div className="App">
 			<Header />
-			<Text name="Username"></Text>
+			<Text></Text>
 			<SignUpButton />
 		</div>
 	);

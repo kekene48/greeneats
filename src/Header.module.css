@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow");
+
+.header {
+	background-color: #2ca845;
+	padding: 5px;
+	padding-left: 1%;
+	padding-right: 10px;
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	font-family: "Barlow";
+}
+
+.heading {
+	color: white;
+	margin-top: 12px;
+}
+
+.imageborder {
+	margin-top: 5px;
+	border-radius: 20%;
+}

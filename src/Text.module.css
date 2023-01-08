@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow");
+
+.title {
+	text-align: center;
+	color: white;
+	font-family: "Barlow";
+	font-size: 55px;
+}
+
+.subtitle {
+	text-align: center;
+	color: white;
+	font-family: "Barlow";
+	font-size: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+}

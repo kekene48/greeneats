@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow");
+
+.previousrecipe {
+	position: absolute;
+	top: 75px;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+	background-image: url("https://wallpaperaccess.com/full/4662121.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #007530;
+	text-align: center;
+	font-size: 25px;
+	font-family: "Barlow";
+}
+
+.centeredtable {
+	margin-left: 15%;
+}
+
+.dish {
+	text-align: center;
+	font-size: 40px;
+	padding: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.recipelink {
+	text-align: center;
+	font-size: 40px;
+	padding: 50px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.data {
+	font-size: 30px;
+	padding-bottom: 15px;
+}

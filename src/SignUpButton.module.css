@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow");
+
+.signup {
+	background-color: #2ca845;
+	color: white;
+	margin-left: 43%;
+	padding: 8px;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+	font-size: 25px;
+	font-family: "Barlow";
+	
+	margin-top: 0px;
+	border-radius: 10px;
+	border: none;
+}
+
+.signup:hover {
+	background-color: #26913b;
+}

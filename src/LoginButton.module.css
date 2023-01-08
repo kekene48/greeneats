@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow");
+
+.loginButton {
+	position: absolute;
+	right: 1%;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+	color: #dcf0d8;
+	font-size: 25px;
+	font-family: "Barlow";
+	
+	margin-top: 12px;
+	border: none;
+	border-radius: 10px;
+	
+	background: none;
+}
+
+.loginButton:hover {
+	color: white;
+}
