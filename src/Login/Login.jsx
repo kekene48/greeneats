@@ -7,7 +7,7 @@ const Login = () => {
     <body>
     <header className='login__container'>
       <div class="wrapper">
-        <a href="#" class="home"><span>GreenEats</span></a>
+        <a href="LandingPage.js" class="home"><span>GreenEats</span></a>
       </div>
         <div className="login">
           <form action="/login" method="post" className="login__form">
