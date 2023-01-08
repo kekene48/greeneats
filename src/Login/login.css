@@ -1,3 +1,55 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #014b20,  #007530);
+}
+.wrapper{
+    position: fixed;
+    margin-top: 2%;
+    margin-left: 1%;
+  }
+  
+  .home{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #333;
+    border-radius: 20%;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .home span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .home:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    border-radius: 20%;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #4A2619;
+    transition: all .35s;
+  }
+  
+  .home:hover{
+    color: #fff;
+  }
+  
+  .home:hover:after{
+    width: 100%;
+  }
 .login {
     display: flex;
     flex-direction: column;
@@ -6,18 +58,15 @@
 
 .login__container {
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80vw;
-    height: 80vh;
-    background: linear-gradient(to right, #4b6cb7, #182848);
+    
+    width: 100%;
+    height: 100%;
 }
 
 .login__top {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 3rem;
 }
 
 .login__h1 {
@@ -25,7 +74,8 @@
     display: inline;
     margin-left: 1rem;
     margin-right: 1rem;
-    color: rgba(245, 245, 245);
+    color: #4A2619;
+    font-weight: bold;
 }
 
 .login__logo {
@@ -33,37 +83,63 @@
     width: 5%;
     border-radius: 1rem;
 }
+@keyframes fadein {
+    from{opacity: 0%;}
+    to{opacity: 100%;}
+}
+.fader {
+    animation-name: fadein;
+    animation-duration: 3s;
+    opacity: 100%;
+    visibility: visible;
+}
+
+@keyframes popup{
+    from{margin-top: -10px;}
+    to{margin-top: 7%;}
+}
 
 .login__form {
     display: flex;
+    animation-name: popup;
+    animation-duration: 3s;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 4rem;
+    padding-top: 2%;
+    border-radius: 10px;
+    width: 30%;
+    margin: 7% auto 0 auto;
+    background-color: #d5e8cd;
 }
 
 .login__input{
     margin: 2rem;
     width: 25%;
-    background: transparent;
+    background: #7eaf6a;
     border: none;
     border-bottom: 1px solid white;
     outline: none;
+    color: #007530;
 }
 
 .login__btn {
-    font-size: 1.2rem;
+    font-size: 4rem;
     align-self: center;
     margin-bottom: 2rem;
-    pointer-events: none; /*this line should be removed later*/
+   width: 30%;
+   height: 30%;
 }
+
 
 .signup {
     font-size: 1.3rem;
     align-self: center;
 }
 .signup__a {
-    color: white;
+    color: #4A2619;
+    text-decoration: none;
 }
 
 .signup__a:hover {
