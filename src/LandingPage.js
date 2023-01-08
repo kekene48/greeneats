@@ -9,7 +9,7 @@ function LandingPage() {
 		<div className="App">
 			<Header />
 			<Text></Text>
-			<a href="login.jxs<SignUpButton /></a>
+			<a href="login.jsx"><SignUpButton /></a>
 		</div>
 	);
 }
